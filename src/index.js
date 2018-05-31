@@ -11,6 +11,7 @@ window.onload = () => {
 	btnTextDecode.addEventListener("click", () => {
 		let textDecode = document.getElementById("box-msg-decode").value;
 		let number_offset = document.getElementById("n_offset_d").value;
-  document.getElementById("box").innerHTML = window.cipher.decode(textDecode, number_offset);
+		window.cipher.decode(textDecode, number_offset);
+		document.getElementById("msg-decode-check").innerHTML = window.cipher.decode(textDecode, number_offset);
 	});
 }

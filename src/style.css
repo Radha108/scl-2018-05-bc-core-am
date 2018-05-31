@@ -7,15 +7,15 @@ body{
 }
 section{
   
-  background-color: beige;
+  background-color:#E3CEF6;
   text-align: center;
-  padding: 19%;
+  padding: 8%;
   border-radius: 15%;
 }
  button{
     padding: 3%;
     border-radius: 8px;
-    font-size: 10px;
+    font-size: 19px;
     background-color:palevioletred;
     margin: 2% 2% 6% 2%;
 }
