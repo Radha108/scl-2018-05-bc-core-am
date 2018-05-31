@@ -3,12 +3,53 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" /> 
 </head>
 <body>
 
-  <div id="root"></div>
+  <!--contain -->
+  <section id="content-cipher" class="content">
+    <!--CABECERA-->
+    <header class="contenthder">
+      <img src="../src/745e294fe26fa76028d8bc74d97fd4c5.jpg">
+      <h1><strong>Cifrado Cesar</strong> </h1>
+      <p>¡Desencriptamos tus mensajes al estilo del antiguo Imperio Romano!</p>
+    </header>
 
+    
+    <!--CAJA CODIFICADO-->
+
+    <div id="content-msg-encode" class="msg-style display_block">
+      <p>Ingrese texto:</p>
+      <textarea id="box-msg-encode" class="box-msg-style" placeholder="Ingrese su mensaje..."></textarea>
+      <div class="content-offset">
+        <label class="label">Ingrese N° de desplazamiento</label>
+        <input type="number" id="n_offset_e" class="n_offset_style">
+      </div>
+      <button id="btn_encode" class="btn-code">Codificar</button>
+      <div id="msg-encode" class="msg-ckeck">
+        <p id="msg-encode-check"></p>
+      </div>
+      <button onclick="location.reload();" class="btn_reload">Limpiar</button>
+    </div>
+    
+    <!--CAJA DECODIFICADO-->
+
+    <div id="content-msg-decode" class="msg-style display_none">
+      <p>Ingrese texto:</p>
+      <textarea id="box-msg-decode" class="box-msg-style"  placeholder="Ingrese su texto..."></textarea>
+      <div class="content-offset">
+        <label class="label">Indique N° de desplazamiento</label>
+        <input type="number" id="n_offset_d" class="n_offset_style">
+      </div>
+      <button id="btn_decode" class="btn-code">Decodificar</button>
+      <div id="msg-decode" class="msg-ckeck">
+        <p id="msg-decode-check"></p>
+             
+  </section>
+
+  <!--¡¡¡¡¡¡ESTE ARCHIVO NO SE TOCA!!!!!-->
+  <div id="root"></div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
