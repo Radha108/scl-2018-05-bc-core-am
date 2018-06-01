@@ -6,7 +6,7 @@ window.onload = () => {
 		let number_offset = document.getElementById("n_offset_e").value;
 	document.getElementById("msg-encode-check").innerHTML = window.cipher.encode(textEncode, number_offset);
 	});
-	/*rescatando el valor del texto a decodificar*/
+	/* decodificar*/
 	const btnTextDecode = document.getElementById("btn_decode");
 	btnTextDecode.addEventListener("click", () => {
 		let textDecode = document.getElementById("box-msg-decode").value;

@@ -1,13 +1,17 @@
 body{
-  font-family: 'Pacifico', cursive;
-  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
   background-image: url(../src/2a.png);
   text-align: center;
+  color: #819FF7;
   padding: 10%;
+  margin: auto;
+  
 }
 #img{
   text-align: center;
-  
+  border-image: 3px;
+  border-radius: 4%;
 }
 section{
   
@@ -27,9 +31,11 @@ section{
 button:hover{
   background-color: beige;
 }
-.instrucciones {
+.instrucciones{
   font-size: 30px;
 }
-
+.box-msg-style{
+   padding: 20%;
+}
 
 
