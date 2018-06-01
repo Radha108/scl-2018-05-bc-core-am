@@ -1,9 +1,13 @@
 body{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
   background-image: url(../src/2a.png);
-  text-align: center
+  text-align: center;
+  padding: 10%;
 }
 #img{
-  text-align: center
+  text-align: center;
+  
 }
 section{
   
@@ -11,19 +15,21 @@ section{
   text-align: center;
   padding: 8%;
   border-radius: 15%;
+
 }
  button{
-    padding: 3%;
-    border-radius: 8px;
+    padding: 2.5%;
+    border-radius: 10px;
     font-size: 19px;
     background-color:palevioletred;
     margin: 2% 2% 6% 2%;
 }
-
-
-. contenthder{
-   
-    color: #000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    font-size:13px;
+button:hover{
+  background-color: beige;
 }
+.instrucciones {
+  font-size: 30px;
+}
+
+
+
